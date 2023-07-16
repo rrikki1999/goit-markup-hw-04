@@ -162,7 +162,8 @@ transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .effective-sol-button{
     background-color:var(--primary-black-color);
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office\ 1.jpg); 
     max-width: 1440px;
     background-position: center;
     background-repeat: no-repeat;
@@ -207,8 +208,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .effective-sol-button-container{
     text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office\ 1.jpg);
+
 }
 /**------------ ADVANTAGES -------------- */
 .features-menu{
@@ -483,7 +483,10 @@ letter-spacing: 0.02em;
     padding: 32px 16px;
     border-top: none;
 }
-.advantagesss-item-cover:hover,.advantagesss-item-cover:focus .addvantage-cover-text{
+.advantagesss-item-cover:hover .addvantage-cover-text{
+    transform: translateY(0);
+}
+.advantagesss-item-cover:focus .addvantage-cover-text{
     transform: translateY(0);
 }
 .addvantage-cover-text{
