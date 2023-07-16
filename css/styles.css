@@ -487,11 +487,12 @@ letter-spacing: 0.02em;
     padding: 32px 16px;
     border-top: none;
 }
-.advantagesss-item-cover:hover .addvantage-cover-text{
-    transform: translateY(0%);
+.portfolio-link:hover .addvantage-cover-text{
+    transform:translateY(0%);
 }
-.advantagesss-item-cover:focus .addvantage-cover-text{
-    transform: translateY(0%);
+
+.portfolio-link:focus .addvantage-cover-text{
+    transform:translateY(0%);
 }
 .addvantage-cover-text{
     position: absolute;
